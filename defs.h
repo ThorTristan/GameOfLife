@@ -1,0 +1,11 @@
+#define SCREEN_WIDTH  1280
+#define SCREEN_HEIGHT 720
+
+//#define int CUBE_HEIGHT = (SCREEN_WIDTH / 20);
+//#define int CUBE_WIDTH = (SCREEN_HEIGHT / 20);
+
+// Cube dimensions
+#define CUBE_WIDTH  (SCREEN_WIDTH / 20)
+#define CUBE_HEIGHT (SCREEN_HEIGHT / 20)
+
+#define gridSize (SCREEN_WIDTH < SCREEN_HEIGHT ? SCREEN_WIDTH / 20 : SCREEN_HEIGHT / 20)
